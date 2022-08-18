@@ -1,0 +1,95 @@
+:root {
+    --green-color: #0b4d14;
+    --black-color: #000;
+    --gray-color: #c6bfbf;
+  }
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+.content-wrap {
+    margin: auto;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+    
+}
+header{
+    background-color: var(--black-color);
+}
+  
+nav{
+    height: 3rem;
+    display: flex;
+  align-items: center;
+}
+
+.hero-section{
+    background-color: var(--gray-color);
+}
+
+.hero-section p{
+    padding: 20px;
+}
+
+.hero-section h1{
+    font-size: 2em;
+    color: var(--black-color);
+    padding: 20px;
+}
+
+.main p{
+    padding-top: 10px;
+    width: 50vh;
+   margin-top: 10px;
+   padding-bottom: 20px;
+}
+
+footer{
+    background-color: var(--green-color);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+/*  all ul li */
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding-right: 15px;
+    font-weight: lighter;
+    font-size: .9em;
+    color: white;
+    list-style: none;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+ }
+
+ @media only screen and (max-width: 1300px)  {
+    .main p{
+        padding-top: 10px;
+        width: 100%;
+       margin-top: 10px;
+       padding-bottom: 20px;
+    }
+
+
+}
